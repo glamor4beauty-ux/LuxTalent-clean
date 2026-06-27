@@ -1,0 +1,105 @@
+# Environment Configuration
+.env
+.env.local
+.env.*.local
+config/config.php
+config/database.php
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+/node_modules
+/vendor
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Python virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+dump.sql
+*.sql.bak
+
+# Backup files (archived in archive/ folder instead)
+*.bak
+*.backup
+*~
+*.tmp
+*.swp
+
+# Runtime
+tmp/
+temp/
+cache/
+uploads/
+files/
+data/
+
+# OS files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+ehthumbs.db
+
+# Testing
+.coverage
+.pytest_cache/
+coverage/
+test-results/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Docker (if used)
+docker-compose.override.yml
+
+# Composer
+composer.lock
+
+# NPM/Yarn
+package-lock.json
+yarn.lock
+
+# Python
+poetry.lock
+
+# Private keys and secrets
+*.key
+*.pem
+private/
+secrets/
+
+# Session files
+sessions/
+
+# Temporary files
+*.orig
+DESKTOP.INI
